@@ -1,0 +1,39 @@
+/*Responsavel pelos Design da pagina design*/
+
+.projetos{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    top: 1px;
+}
+
+
+
+.partes{
+    transition: all 1s;
+    margin: 0 auto 0 auto;
+    background-color: rgb(3, 75, 133);
+    width: 700px;
+    max-height: 5000px;
+    border-radius: 50px 10px 50px 10px;
+    filter: drop-shadow(14px 10px 10px rgb(87, 87, 87));
+}
+
+
+.partes p{
+    color: white;
+    font-size: 20px;
+    font-family: fantasy,'Courier New', Courier, monospace;
+}
+
+.partes h1{
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+}
+
+.partes video{
+    transition: all 1s;
+    filter: drop-shadow(13px 14px 14px rgb(29, 28, 41));
+    border-radius: 50px 10px 50px 10px;
+
+}

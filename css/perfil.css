@@ -1,0 +1,47 @@
+/* Responsavel pelo Design das Fotos e das informaçoes na tela inicial*/
+
+.perfil{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.perfil img{
+    top:20px;
+    filter: drop-shadow(10px 20px 10px rgb(65, 65, 65));
+    transition: all 1s;
+    border-radius: 10px 50px 10px 50px;
+    border: solid rgba(255, 255, 255, 0) 0px;
+    width: 180px;
+    padding: 6px;
+}
+
+.perfil img:hover{
+    transform: scale(1.2);
+    border-radius: 100px 30px 100px 30px;
+    padding: 50px;
+    filter: drop-shadow(20px 30px 50px rgb(65, 65, 65));
+}
+
+.perfil h1{
+    padding-top: 20px;
+    color: rgb(22, 79, 165);
+    font-family: 'Paytone One', sans-serif;
+}
+
+.perfil hr{
+    width: 300px;
+    color: rgb(13, 93, 214);
+    
+}
+.perfil h2{
+    color: rgb(3, 103, 133);
+    font-family: 'Paytone One', sans-serif;
+}
+
+#Resposta{
+    color: black;
+}
+
+
+

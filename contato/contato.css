@@ -1,0 +1,66 @@
+/*Responsavel pelo Design da area de contato*/
+
+.contato{
+    
+    background-color: rgb(3, 75, 133);
+    margin: 0 auto 0 auto;
+    width: 600px;
+    height: 700px;
+    top: 100px;
+    text-align: center;
+    border-radius: 50px 10px 50px 10px;
+    filter: drop-shadow(15px 15px 10px rgb(90, 90, 90));
+    transition: all 1s;
+}
+
+.contato p{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.contato img{
+    transition: all 1s;
+    width: 100px;
+    border-radius: 25px 5px 25px 5px;
+    top: 20px;
+    filter: drop-shadow(14px 10px 10px rgb(35, 35, 37));
+}
+
+.contato img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(14px 10px 25px rgb(33, 34, 39) );
+}
+
+.contato textarea{
+    transition: all 1s;
+    border-radius: 15px 15px 15px 15px;
+    filter: drop-shadow(14px 10px 10px rgb(35, 35, 37));
+}
+
+
+.contato input{
+    transition: all 1s;
+    filter: drop-shadow(14px 10px 20px rgb(35, 35, 37));
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+/*---------------------*/
+.redes{
+    top: 60px;
+   text-align: center;
+}
+.redes img{
+    transition: all 1s;
+    width: 40px;
+}
+
+.redes img:hover{
+    transform: scale(1.5);
+}

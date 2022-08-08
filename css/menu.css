@@ -1,0 +1,49 @@
+*{
+    position: relative;
+
+}
+
+/* Responsavel pelo design do Menu Superior*/
+
+.menu{
+    transition: all 1s;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    height: 60px;
+    background-color: rgb(3, 75, 133);
+    border-radius: 50px 10px 50px 10px;
+    filter: drop-shadow(14px 10px 10px rgb(2, 19, 46));
+}
+
+.menu ul{
+    transition: all 1s;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+
+}
+
+.menu a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(54, 54, 54);
+}
+
+
+.menu li{
+    transition: all 1s;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px 50px 10px 50px;
+    filter: drop-shadow(1px 3px 5px rgb(65, 65, 65));
+    
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+}
+
+
+
